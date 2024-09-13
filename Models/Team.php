@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Nette\Utils\ArrayList;
+use Nette\Utils\Array;
 
 /**
  * Represents a team in a football match.

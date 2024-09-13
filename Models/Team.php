@@ -29,7 +29,7 @@ class Team
      * @param string    $name     Team name
      * @param ArrayList $players  List of players
      */
-    public function __construct($name, ArrayList $players)
+    public function __construct($name, Array $players)
     {
         $this->name = $name;
         $this->players = $players;
@@ -70,7 +70,7 @@ class Team
      *
      * @param ArrayList $players List of players
      */
-    public function setPlayers(ArrayList $players)
+    public function setPlayers(Array $players)
     {
         $this->players = $players;
     }

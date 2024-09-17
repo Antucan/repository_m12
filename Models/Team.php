@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Models;
-
 use Nette\Utils\Array;
+
 
 /**
  * Represents a team in a football match.
@@ -19,17 +19,17 @@ class Team
     /**
      * List of players in the team
      *
-     * @var ArrayList
+     * @var array
      */
     private $players;
 
     /**
      * Construct a Team with a name and a list of players.
      *
-     * @param string    $name     Team name
-     * @param ArrayList $players  List of players
+     * @param string $name    Team name
+     * @param array  $players List of players
      */
-    public function __construct($name, Array $players)
+    public function __construct($name, array $players)
     {
         $this->name = $name;
         $this->players = $players;
@@ -48,7 +48,7 @@ class Team
     /**
      * Get the list of players in the team.
      *
-     * @return ArrayList
+     * @return array
      */
     public function getPlayers()
     {
@@ -68,9 +68,9 @@ class Team
     /**
      * Set the list of players in the team.
      *
-     * @param ArrayList $players List of players
+     * @param array $players List of players
      */
-    public function setPlayers(Array $players)
+    public function setPlayers(array $players)
     {
         $this->players = $players;
     }

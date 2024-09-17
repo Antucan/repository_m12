@@ -13,12 +13,18 @@ class Person
    * @var int
    */
   private $age;
-  
+  /**
+     * Coach name
+     *
+     * @var string
+     */
+    private $name;
   /**
    * Get age of person
    *
    * @return  int
-   */ 
+   */
+  
   public function getAge()
   {
     return $this->age;
